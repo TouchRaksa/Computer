@@ -1,0 +1,6 @@
+/* If not using PostCSS with Tailwind, import the compiled Tailwind CSS instead */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
