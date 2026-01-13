@@ -94,7 +94,6 @@ function Navbar({ search, setSearch }) {
           className="w-5 h-5 cursor-pointer hover:scale-110 transition"
         />
 
-        {/* Search bar */}
         <input
           type="text"
           placeholder="Search products"
@@ -106,8 +105,9 @@ function Navbar({ search, setSearch }) {
             bg-gray-100 dark:bg-gray-700
             text-black dark:text-white
             border border-gray-300 dark:border-gray-600
-            wnone-full sm:w-[300px] md:w-[500px] lg:w-[1000px] h-[35px]
-            focus:outline- focus:ring-2 focus:ring-orange-400
+            w-[140px] sm:w-[220px] md:w-[350px] lg:w-[500px]
+            h-[35px]
+            focus:outline-none focus:ring-2 focus:ring-orange-400
           "
         />
       </div>
@@ -124,7 +124,7 @@ function Navbar({ search, setSearch }) {
           className="w-6 h-6 cursor-pointer hover:scale-110 transition"
         />
 
-      </nav>
+      </nav>  
     </div>
   );
 }
